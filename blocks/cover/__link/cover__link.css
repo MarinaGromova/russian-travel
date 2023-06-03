@@ -1,0 +1,14 @@
+.cover__link {
+  width: 100%;
+  min-height: 740px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 3;
+}
+
+@media screen and (max-width: 767px) {
+  .cover__link {
+    min-height: 200px;
+  }
+}

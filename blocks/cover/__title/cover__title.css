@@ -1,0 +1,21 @@
+.cover__title {
+  margin: 0 0 32px 0;
+  text-align: center;
+  color: rgba(255, 255, 255);
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  max-width: 560px;
+  z-index: 2;
+}
+
+@media screen and (max-width: 767px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 35px;
+    max-width: 288px;
+    margin: 0 16px;
+    padding: 33px 30px 16px 30px;
+    box-sizing: border-box;
+  }
+}
