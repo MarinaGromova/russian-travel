@@ -2,12 +2,7 @@
   margin: 0 auto 92px auto;
   max-width: 1184px;
   min-height: 740px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   position: relative;
-  z-index: 1;
   background-image: url(../../image/cover-trains.jpg);
   background-position: 50% 50%;
   background-repeat: no-repeat;
