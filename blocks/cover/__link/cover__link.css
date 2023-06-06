@@ -1,6 +1,6 @@
 .cover__link {
   width: 100%;
-  min-height: 740px;
+  min-height: inherit;
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -8,10 +8,4 @@
   flex-direction: column;
   position: relative;
   z-index: 3;
-}
-
-@media screen and (max-width: 767px) {
-  .cover__link {
-    min-height: 200px;
-  }
 }
